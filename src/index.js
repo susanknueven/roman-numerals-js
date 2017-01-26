@@ -1,9 +1,13 @@
-const sayHi = () => {
-    console.log('hello world!');
-};
 
-export function add(a, b) {
-    return a + b;
+export var romanReader = (romanNumeral) => {
+    var romanDigitArray = romanNumeral.split("");
+    return romanDigitArray.map(char => singleDigitRomanNumeralConverter(char)).reduce((a,b)=>a+b);
 }
 
-sayHi();
+function singleDigitRomanNumeralConverter(romanDigit) {
+    switch (romanDigit) {
+        case "i":
+            return 1;
+    }
+}
+

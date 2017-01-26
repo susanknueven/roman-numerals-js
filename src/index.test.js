@@ -1,5 +1,10 @@
-import {add} from './index';
+import {romanReader} from './index';
 
-test('1 + 1 to equal 2', () => {
-  expect(add(1,1)).toBe(2);
+describe('single values', () => {
+  it('should find value of i', () => {
+    expect(romanReader("i")).toBe(1);
+  });
+  it('should find value of ii', () => {
+    expect(romanReader("ii")).toBe(2);
+  });
 });
