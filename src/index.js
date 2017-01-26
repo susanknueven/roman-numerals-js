@@ -8,6 +8,10 @@ function singleDigitRomanNumeralConverter(romanDigit) {
     switch (romanDigit) {
         case "i":
             return 1;
+        case "v":
+            return 5;
+        case "x":
+            return 10;
     }
 }
 
