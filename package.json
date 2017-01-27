@@ -1,48 +1,12 @@
 {
-  "name": "codemash-js-dev-env",
+  "name": "roman-numerals-js",
   "version": "1.0.0",
-  "description": "JS Dev Environment",
+  "description": "Roman Numeral Converter",
   "scripts": {
-    "start": "npm-run-all --parallel open test",
-    "open": "node tools/srcServer.js",
     "test": "jest --watch"
   },
-  "author": "Cory House",
-  "license": "MIT",
+  "author": "Susan Knueven",
   "dependencies": {
-    "babel-core": "6.21.0",
-    "babel-loader": "6.2.10",
-    "babel-preset-latest": "6.16.0",
-    "eslint": "3.12.2",
-    "eslint-loader": "1.6.1",
-    "express": "4.14.0",
-    "jest": "18.0.0",
-    "npm-run-all": "3.1.2",
-    "open": "0.0.5",
-    "webpack": "1.14.0",
-    "webpack-dev-middleware": "1.9.0",
-    "webpack-hot-middleware": "2.13.2"
-  },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
-    },
-    "env": {
-      "browser": true,
-      "jest": true
-    },
-    "rules": {
-      "no-console": "off",
-      "no-debugger": "warn"
-    }
+    "jest": "18.0.0"
   }
 }
